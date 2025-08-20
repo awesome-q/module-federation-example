@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "compilerOptions": {
+    "experimentalDecorators": true
+  },
+  "references": [
+    {
+      "path": "./apps/host-app"
+    },
+    {
+      "path": "./libs/common-ui"
+    },
+    {
+      "path": "./apps/remote-app"
+    }
+  ]
 }

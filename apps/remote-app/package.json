@@ -1,0 +1,10 @@
+{
+  "name": "@mf-example/remote-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@module-federation/vite": "^1.7.1",
+    "lit": "^3.3.1",
+    "@mf-example/common-ui": "workspace:*"
+  }
+}
